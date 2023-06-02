@@ -14,12 +14,15 @@
 		<form action="" name="Calculator">
 
 			<input type="text" class="text maincolor"name="text1" disabled>
-
 			<input type="text" class="text1 maincolor"name="text12" value="C" onclick="location.reload()"><br>
+            <!--Sempre que o botão C foi pressionado, fará que o calculo seja apagado-->
+            
 			<input type="button" class="num maincolor"name="btn9" value="9" onclick="displaynum(btn9.value)">
 			<input type="button" class="num maincolor"name="btn8" value="8" onclick="displaynum(btn8.value)">
 			<input type="button" class="num maincolor"name="btn7" value="7" onclick="displaynum(btn7.value)">
 			<input type="button" class="num blue"name="addbtn" value="+" onclick="displaynum(addbtn.value)"><br>
+            <!--Inseridos botões numéricos '9', '8' e '7', juntamente com o botão de adição '+'-->
+
 
 			<input type="button" class="num maincolor"name="btn6" value="6" onclick="displaynum(btn6.value)">
 			<input type="button" class="num maincolor"name="btn5" value="5" onclick="displaynum(btn5.value)">
@@ -35,6 +38,7 @@
 			<input type="button" class="num maincolor"name="btn0" value="0" onclick="displaynum(btn0.value)">
 			<input type="button" class="num pur"name="eqlbtn" value="=" onclick="text1.value=eval(text1.value)">
 			<input type="button" class="num ora"name="divbtn" value="/" onclick="displaynum(divbtn.value)"><br>
+             <!--quatro blocos com quatro botês iniciais-->              
 		</form>
 	</div>
 </body>
